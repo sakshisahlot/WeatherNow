@@ -241,26 +241,26 @@ const weatherIcons = {
       fill="none"
       xmlns="http://www.w3.org/2000/svg">
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M8.23591 26.8351C18.6619 26.8351 27.1138 18.3528 27.1138 7.88937C27.1138 6.39548 26.9415 4.94198 26.6158 3.54778C26.2214 1.85943 27.7278 0.167238 29.2618 0.975319C35.9033 4.47393 40.4335 11.4621 40.4335 19.5122C40.4335 31.067 31.1 40.434 19.5865 40.434C11.4139 40.434 4.33961 35.7143 0.922322 28.8425C0.149838 27.2892 1.87839 25.8192 3.55912 26.2492C5.0547 26.6317 6.62164 26.8351 8.23591 26.8351Z"
         fill="url(#paint0_linear_59_27066)"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M13.5 69H34.5H36H55.5C64.6127 69 72 61.6127 72 52.5C72 43.3873 64.6127 36 55.5 36C55.1382 36 54.7791 36.0116 54.4231 36.0346C50.6566 28.879 43.1481 24 34.5 24C23.6003 24 14.5107 31.7504 12.4418 42.0409C5.48057 42.5806 0 48.4003 0 55.5C0 62.9558 6.04416 69 13.5 69Z"
         fill="#E7F1FF"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M13.5 69H34.5H36H55.5C64.6127 69 72 61.6127 72 52.5C72 43.3873 64.6127 36 55.5 36C55.1382 36 54.7791 36.0116 54.4231 36.0346C50.6566 28.879 43.1481 24 34.5 24C23.6003 24 14.5107 31.7504 12.4418 42.0409C5.48057 42.5806 0 48.4003 0 55.5C0 62.9558 6.04416 69 13.5 69Z"
         fill="url(#paint1_linear_59_27066)"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M13.5 69H34.5H36H55.5C64.6127 69 72 61.6127 72 52.5C72 43.3873 64.6127 36 55.5 36C55.1382 36 54.7791 36.0116 54.4231 36.0346C50.6566 28.879 43.1481 24 34.5 24C23.6003 24 14.5107 31.7504 12.4418 42.0409C5.48057 42.5806 0 48.4003 0 55.5C0 62.9558 6.04416 69 13.5 69Z"
         fill="url(#paint2_linear_59_27066)"
       />
@@ -286,9 +286,9 @@ const weatherIcons = {
           x2="39.0293"
           y2="-0.616951"
           gradientUnits="userSpaceOnUse">
-          <stop stop-color="#EE7F18" />
-          <stop offset="0.56298" stop-color="#EEB82E" />
-          <stop offset="1" stop-color="#FEB649" stop-opacity="0.78" />
+          <stop stopColor="#EE7F18" />
+          <stop offset="0.56298" stopColor="#EEB82E" />
+          <stop offset="1" stopColor="#FEB649" stopOpacity="0.78" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_59_27066"
@@ -297,8 +297,8 @@ const weatherIcons = {
           x2="36"
           y2="69"
           gradientUnits="userSpaceOnUse">
-          <stop stop-color="#C6D8F5" />
-          <stop offset="1" stop-color="#89AFD1" stop-opacity="0" />
+          <stop stopColor="#C6D8F5" />
+          <stop offset="1" stopColor="#89AFD1" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_59_27066"
@@ -307,8 +307,8 @@ const weatherIcons = {
           x2="31.1538"
           y2="24"
           gradientUnits="userSpaceOnUse">
-          <stop stop-color="#547DDA" />
-          <stop offset="0.257422" stop-color="#93C2FF" stop-opacity="0" />
+          <stop stopColor="#547DDA" />
+          <stop offset="0.257422" stopColor="#93C2FF" stopOpacity="0" />
         </linearGradient>
         <radialGradient
           id="paint3_radial_59_27066"
@@ -317,8 +317,8 @@ const weatherIcons = {
           r="1"
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(19.5 69) rotate(-127.875) scale(28.5044 32.9871)">
-          <stop offset="0.683784" stop-color="#8FABDD" stop-opacity="0" />
-          <stop offset="1" stop-color="#5582D3" />
+          <stop offset="0.683784" stopColor="#8FABDD" stopOpacity="0" />
+          <stop offset="1" stopColor="#5582D3" />
         </radialGradient>
         <radialGradient
           id="paint4_radial_59_27066"
@@ -327,8 +327,8 @@ const weatherIcons = {
           r="1"
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(34.5 64.5) rotate(-90) scale(40.5)">
-          <stop offset="0.598765" stop-color="#C7DFFF" stop-opacity="0" />
-          <stop offset="1" stop-color="#6B97E6" />
+          <stop offset="0.598765" stopColor="#C7DFFF" stopOpacity="0" />
+          <stop offset="1" stopColor="#6B97E6" />
         </radialGradient>
         <radialGradient
           id="paint5_radial_59_27066"
@@ -337,8 +337,8 @@ const weatherIcons = {
           r="1"
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(46.7 64.6) rotate(-56.3099) scale(31.7288)">
-          <stop offset="0.47771" stop-color="#8FABDD" stop-opacity="0" />
-          <stop offset="1" stop-color="#5582D3" />
+          <stop offset="0.47771" stopColor="#8FABDD" stopOpacity="0" />
+          <stop offset="1" stopColor="#5582D3" />
         </radialGradient>
       </defs>
     </svg>
@@ -351,20 +351,20 @@ const weatherIcons = {
       fill="none"
       xmlns="http://www.w3.org/2000/svg">
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M13.5 54H34.5H36H55.5C64.6127 54 72 46.6127 72 37.5C72 28.3873 64.6127 21 55.5 21C55.1382 21 54.7791 21.0116 54.4231 21.0346C50.6566 13.879 43.1481 9 34.5 9C23.6003 9 14.5107 16.7504 12.4418 27.0409C5.48057 27.5806 0 33.4003 0 40.5C0 47.9558 6.04416 54 13.5 54Z"
         fill="#E7F1FF"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M13.5 54H34.5H36H55.5C64.6127 54 72 46.6127 72 37.5C72 28.3873 64.6127 21 55.5 21C55.1382 21 54.7791 21.0116 54.4231 21.0346C50.6566 13.879 43.1481 9 34.5 9C23.6003 9 14.5107 16.7504 12.4418 27.0409C5.48057 27.5806 0 33.4003 0 40.5C0 47.9558 6.04416 54 13.5 54Z"
         fill="url(#paint0_linear_537_36598)"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M13.5 54H34.5H36H55.5C64.6127 54 72 46.6127 72 37.5C72 28.3873 64.6127 21 55.5 21C55.1382 21 54.7791 21.0116 54.4231 21.0346C50.6566 13.879 43.1481 9 34.5 9C23.6003 9 14.5107 16.7504 12.4418 27.0409C5.48057 27.5806 0 33.4003 0 40.5C0 47.9558 6.04416 54 13.5 54Z"
         fill="url(#paint1_linear_537_36598)"
       />
@@ -383,14 +383,14 @@ const weatherIcons = {
         fill="url(#paint4_radial_537_36598)"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M55.5 36C56.3284 36 57 36.6716 57 37.5V39.8787L57.4393 39.4393C58.0251 38.8536 58.9749 38.8536 59.5607 39.4393C60.1465 40.0251 60.1465 40.9749 59.5607 41.5607L57 44.1213V48.4021L60.7077 46.2615L61.6449 42.7639C61.8593 41.9637 62.6818 41.4888 63.482 41.7032C64.2822 41.9176 64.7571 42.7401 64.5426 43.5403L64.3819 44.1402L66.4417 42.951C67.1591 42.5367 68.0765 42.7826 68.4907 43.5C68.9049 44.2174 68.6591 45.1348 67.9417 45.549L65.8815 46.7385L66.482 46.8994C67.2822 47.1138 67.7571 47.9363 67.5426 48.7365C67.3282 49.5367 66.5057 50.0116 65.7055 49.7971L62.2073 48.8598L58.5 51.0002L62.2067 53.1402L65.705 52.2029C66.5052 51.9884 67.3277 52.4633 67.5421 53.2635C67.7565 54.0637 67.2816 54.8862 66.4814 55.1006L65.8809 55.2615L67.941 56.451C68.6585 56.8652 68.9043 57.7826 68.4901 58.5C68.0759 59.2174 67.1585 59.4633 66.441 59.049L64.3814 57.8599L64.5421 58.4597C64.7565 59.2599 64.2816 60.0824 63.4814 60.2968C62.6812 60.5112 61.8587 60.0363 61.6443 59.2361L60.7071 55.7386L57 53.5983V57.8787L59.5607 60.4393C60.1465 61.0251 60.1465 61.9749 59.5607 62.5607C58.9749 63.1464 58.0251 63.1464 57.4393 62.5607L57 62.1213V64.5C57 65.3284 56.3284 66 55.5 66C54.6716 66 54 65.3284 54 64.5V62.1213L53.5607 62.5607C52.9749 63.1464 52.0251 63.1464 51.4393 62.5607C50.8536 61.9749 50.8536 61.0251 51.4393 60.4393L54 57.8787V53.5983L50.293 55.7385L49.3557 59.2365C49.1413 60.0367 48.3188 60.5116 47.5186 60.2971C46.7184 60.0827 46.2435 59.2602 46.4579 58.46L46.6187 57.8598L44.559 59.049C43.8415 59.4633 42.9241 59.2174 42.5099 58.5C42.0957 57.7826 42.3415 56.8652 43.059 56.451L45.1187 55.2618L44.5186 55.101C43.7184 54.8866 43.2435 54.0641 43.4579 53.2639C43.6723 52.4637 44.4948 51.9888 45.295 52.2032L48.7929 53.1405L52.5 51.0002L48.7923 48.8595L45.2945 49.7968C44.4943 50.0112 43.6718 49.5363 43.4574 48.7361C43.243 47.9359 43.7178 47.1134 44.518 46.899L45.1181 46.7382L43.0584 45.549C42.3409 45.1348 42.0951 44.2174 42.5093 43.5C42.9235 42.7826 43.8409 42.5367 44.5584 42.951L46.6182 44.1402L46.4574 43.54C46.243 42.7398 46.7178 41.9173 47.518 41.7029C48.3182 41.4884 49.1407 41.9633 49.3551 42.7635L50.2924 46.2615L54 48.4021V44.1213L51.4393 41.5607C50.8536 40.9749 50.8536 40.0251 51.4393 39.4393C52.0251 38.8536 52.9749 38.8536 53.5607 39.4393L54 39.8787V37.5C54 36.6716 54.6716 36 55.5 36Z"
         fill="url(#paint5_linear_537_36598)"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M19.5 42C20.3284 42 21 42.6716 21 43.5V45.8787L21.4393 45.4393C22.0251 44.8536 22.9749 44.8536 23.5607 45.4393C24.1465 46.0251 24.1465 46.9749 23.5607 47.5607L21 50.1213V54.4021L24.7077 52.2615L25.6449 48.7639C25.8593 47.9637 26.6818 47.4888 27.482 47.7032C28.2822 47.9176 28.7571 48.7401 28.5426 49.5403L28.3819 50.1402L30.4417 48.951C31.1591 48.5367 32.0765 48.7826 32.4907 49.5C32.9049 50.2174 32.6591 51.1348 31.9417 51.549L29.8815 52.7385L30.482 52.8994C31.2822 53.1138 31.7571 53.9363 31.5426 54.7365C31.3282 55.5367 30.5057 56.0116 29.7055 55.7971L26.2073 54.8598L22.5 57.0002L26.2067 59.1402L29.705 58.2029C30.5052 57.9884 31.3277 58.4633 31.5421 59.2635C31.7565 60.0637 31.2816 60.8862 30.4814 61.1006L29.8809 61.2615L31.941 62.451C32.6585 62.8652 32.9043 63.7826 32.4901 64.5C32.0759 65.2174 31.1585 65.4633 30.441 65.049L28.3814 63.8599L28.5421 64.4597C28.7565 65.2599 28.2816 66.0824 27.4814 66.2968C26.6812 66.5112 25.8587 66.0363 25.6443 65.2361L24.7071 61.7386L21 59.5983V63.8787L23.5607 66.4393C24.1465 67.0251 24.1465 67.9749 23.5607 68.5607C22.9749 69.1464 22.0251 69.1464 21.4393 68.5607L21 68.1213V70.5C21 71.3284 20.3284 72 19.5 72C18.6716 72 18 71.3284 18 70.5V68.1213L17.5607 68.5607C16.9749 69.1464 16.0251 69.1464 15.4393 68.5607C14.8536 67.9749 14.8536 67.0251 15.4393 66.4393L18 63.8787V59.5983L14.293 61.7385L13.3557 65.2365C13.1413 66.0367 12.3188 66.5116 11.5186 66.2971C10.7184 66.0827 10.2435 65.2602 10.4579 64.46L10.6187 63.8598L8.55897 65.049C7.84153 65.4633 6.92415 65.2174 6.50993 64.5C6.09572 63.7826 6.34153 62.8652 7.05897 62.451L9.11869 61.2618L8.51858 61.101C7.71839 60.8866 7.24351 60.0641 7.45792 59.2639C7.67234 58.4637 8.49484 57.9888 9.29504 58.2032L12.7929 59.1405L16.5 57.0002L12.7923 54.8595L9.29448 55.7968C8.49429 56.0112 7.67178 55.5363 7.45737 54.7361C7.24295 53.9359 7.71783 53.1134 8.51803 52.899L9.11809 52.7382L7.05836 51.549C6.34092 51.1348 6.0951 50.2174 6.50932 49.5C6.92353 48.7826 7.84092 48.5367 8.55836 48.951L10.6182 50.1402L10.4574 49.54C10.243 48.7398 10.7178 47.9173 11.518 47.7029C12.3182 47.4884 13.1407 47.9633 13.3551 48.7635L14.2924 52.2615L18 54.4021V50.1213L15.4393 47.5607C14.8536 46.9749 14.8536 46.0251 15.4393 45.4393C16.0251 44.8536 16.9749 44.8536 17.5607 45.4393L18 45.8787V43.5C18 42.6716 18.6716 42 19.5 42Z"
         fill="url(#paint6_linear_537_36598)"
       />
@@ -402,8 +402,8 @@ const weatherIcons = {
           x2="36"
           y2="54"
           gradientUnits="userSpaceOnUse">
-          <stop stop-color="#C6D8F5" />
-          <stop offset="1" stop-color="#89AFD1" stop-opacity="0" />
+          <stop stopColor="#C6D8F5" />
+          <stop offset="1" stopColor="#89AFD1" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_537_36598"
@@ -412,8 +412,8 @@ const weatherIcons = {
           x2="31.1538"
           y2="9"
           gradientUnits="userSpaceOnUse">
-          <stop stop-color="#547DDA" />
-          <stop offset="0.257422" stop-color="#93C2FF" stop-opacity="0" />
+          <stop stopColor="#547DDA" />
+          <stop offset="0.257422" stopColor="#93C2FF" stopOpacity="0" />
         </linearGradient>
         <radialGradient
           id="paint2_radial_537_36598"
@@ -422,8 +422,8 @@ const weatherIcons = {
           r="1"
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(19.5 54) rotate(-127.875) scale(28.5044 32.9871)">
-          <stop offset="0.683784" stop-color="#8FABDD" stop-opacity="0" />
-          <stop offset="1" stop-color="#5582D3" />
+          <stop offset="0.683784" stopColor="#8FABDD" stopOpacity="0" />
+          <stop offset="1" stopColor="#5582D3" />
         </radialGradient>
         <radialGradient
           id="paint3_radial_537_36598"
@@ -432,8 +432,8 @@ const weatherIcons = {
           r="1"
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(34.5 49.5) rotate(-90) scale(40.5)">
-          <stop offset="0.598765" stop-color="#C7DFFF" stop-opacity="0" />
-          <stop offset="1" stop-color="#6B97E6" />
+          <stop offset="0.598765" stopColor="#C7DFFF" stopOpacity="0" />
+          <stop offset="1" stopColor="#6B97E6" />
         </radialGradient>
         <radialGradient
           id="paint4_radial_537_36598"
@@ -442,8 +442,8 @@ const weatherIcons = {
           r="1"
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(46.7 49.6) rotate(-56.3099) scale(31.7288)">
-          <stop offset="0.47771" stop-color="#8FABDD" stop-opacity="0" />
-          <stop offset="1" stop-color="#5582D3" />
+          <stop offset="0.47771" stopColor="#8FABDD" stopOpacity="0" />
+          <stop offset="1" stopColor="#5582D3" />
         </radialGradient>
         <linearGradient
           id="paint5_linear_537_36598"
@@ -452,8 +452,8 @@ const weatherIcons = {
           x2="55.5"
           y2="66"
           gradientUnits="userSpaceOnUse">
-          <stop stop-color="#1A70F0" />
-          <stop offset="1" stop-color="#2D94DE" />
+          <stop stopColor="#1A70F0" />
+          <stop offset="1" stopColor="#2D94DE" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_537_36598"
@@ -462,8 +462,8 @@ const weatherIcons = {
           x2="19.5"
           y2="72"
           gradientUnits="userSpaceOnUse">
-          <stop stop-color="#1A70F0" />
-          <stop offset="1" stop-color="#2D94DE" />
+          <stop stopColor="#1A70F0" />
+          <stop offset="1" stopColor="#2D94DE" />
         </linearGradient>
       </defs>
     </svg>
@@ -477,20 +477,20 @@ const weatherIcons = {
       xmlns="http://www.w3.org/2000/svg">
       <circle cx="36" cy="36" r="30" fill="url(#paint0_linear_281_51023)" />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M37.875 63H50.125H51H62.375C67.6907 63 72 58.6907 72 53.375C72 48.0593 67.6907 43.75 62.375 43.75C62.1639 43.75 61.9545 43.7568 61.7468 43.7702C59.5497 39.5961 55.1697 36.75 50.125 36.75C43.7668 36.75 38.4646 41.2711 37.2577 47.2738C33.197 47.5887 30 50.9835 30 55.125C30 59.4742 33.5258 63 37.875 63Z"
         fill="#E7F1FF"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M37.875 63H50.125H51H62.375C67.6907 63 72 58.6907 72 53.375C72 48.0593 67.6907 43.75 62.375 43.75C62.1639 43.75 61.9545 43.7568 61.7468 43.7702C59.5497 39.5961 55.1697 36.75 50.125 36.75C43.7668 36.75 38.4646 41.2711 37.2577 47.2738C33.197 47.5887 30 50.9835 30 55.125C30 59.4742 33.5258 63 37.875 63Z"
         fill="url(#paint1_linear_281_51023)"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M37.875 63H50.125H51H62.375C67.6907 63 72 58.6907 72 53.375C72 48.0593 67.6907 43.75 62.375 43.75C62.1639 43.75 61.9545 43.7568 61.7468 43.7702C59.5497 39.5961 55.1697 36.75 50.125 36.75C43.7668 36.75 38.4646 41.2711 37.2577 47.2738C33.197 47.5887 30 50.9835 30 55.125C30 59.4742 33.5258 63 37.875 63Z"
         fill="url(#paint2_linear_281_51023)"
       />
@@ -509,20 +509,20 @@ const weatherIcons = {
         fill="url(#paint5_radial_281_51023)"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M7.875 27H20.125H21H32.375C37.6907 27 42 22.6907 42 17.375C42 12.0593 37.6907 7.75 32.375 7.75C32.1639 7.75 31.9545 7.7568 31.7468 7.77017C29.5497 3.59609 25.1697 0.75 20.125 0.75C13.7668 0.75 8.46459 5.27108 7.25773 11.2738C3.197 11.5887 0 14.9835 0 19.125C0 23.4742 3.52576 27 7.875 27Z"
         fill="#E7F1FF"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M7.875 27H20.125H21H32.375C37.6907 27 42 22.6907 42 17.375C42 12.0593 37.6907 7.75 32.375 7.75C32.1639 7.75 31.9545 7.7568 31.7468 7.77017C29.5497 3.59609 25.1697 0.75 20.125 0.75C13.7668 0.75 8.46459 5.27108 7.25773 11.2738C3.197 11.5887 0 14.9835 0 19.125C0 23.4742 3.52576 27 7.875 27Z"
         fill="url(#paint6_linear_281_51023)"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M7.875 27H20.125H21H32.375C37.6907 27 42 22.6907 42 17.375C42 12.0593 37.6907 7.75 32.375 7.75C32.1639 7.75 31.9545 7.7568 31.7468 7.77017C29.5497 3.59609 25.1697 0.75 20.125 0.75C13.7668 0.75 8.46459 5.27108 7.25773 11.2738C3.197 11.5887 0 14.9835 0 19.125C0 23.4742 3.52576 27 7.875 27Z"
         fill="url(#paint7_linear_281_51023)"
       />
@@ -548,9 +548,9 @@ const weatherIcons = {
           x2="0.579727"
           y2="-10.7074"
           gradientUnits="userSpaceOnUse">
-          <stop stop-color="#EF6D0F" />
-          <stop offset="0.56298" stop-color="#EEB82E" />
-          <stop offset="1" stop-color="#FEB649" stop-opacity="0.78" />
+          <stop stopColor="#EF6D0F" />
+          <stop offset="0.56298" stopColor="#EEB82E" />
+          <stop offset="1" stopColor="#FEB649" stopOpacity="0.78" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_281_51023"
@@ -559,8 +559,8 @@ const weatherIcons = {
           x2="51"
           y2="63"
           gradientUnits="userSpaceOnUse">
-          <stop stop-color="#C6D8F5" />
-          <stop offset="1" stop-color="#89AFD1" stop-opacity="0" />
+          <stop stopColor="#C6D8F5" />
+          <stop offset="1" stopColor="#89AFD1" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_281_51023"
@@ -569,8 +569,8 @@ const weatherIcons = {
           x2="48.1731"
           y2="36.75"
           gradientUnits="userSpaceOnUse">
-          <stop stop-color="#547DDA" />
-          <stop offset="0.257422" stop-color="#93C2FF" stop-opacity="0" />
+          <stop stopColor="#547DDA" />
+          <stop offset="0.257422" stopColor="#93C2FF" stopOpacity="0" />
         </linearGradient>
         <radialGradient
           id="paint3_radial_281_51023"
@@ -579,8 +579,8 @@ const weatherIcons = {
           r="1"
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(41.375 63) rotate(-127.875) scale(16.6276 19.2425)">
-          <stop offset="0.683784" stop-color="#8FABDD" stop-opacity="0" />
-          <stop offset="1" stop-color="#5582D3" />
+          <stop offset="0.683784" stopColor="#8FABDD" stopOpacity="0" />
+          <stop offset="1" stopColor="#5582D3" />
         </radialGradient>
         <radialGradient
           id="paint4_radial_281_51023"
@@ -589,8 +589,8 @@ const weatherIcons = {
           r="1"
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(51.2187 63) rotate(-120.256) scale(25.3248 26.3211)">
-          <stop offset="0.683784" stop-color="#8FABDD" stop-opacity="0" />
-          <stop offset="1" stop-color="#5582D3" />
+          <stop offset="0.683784" stopColor="#8FABDD" stopOpacity="0" />
+          <stop offset="1" stopColor="#5582D3" />
         </radialGradient>
         <radialGradient
           id="paint5_radial_281_51023"
@@ -599,8 +599,8 @@ const weatherIcons = {
           r="1"
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(57.2417 60.4333) rotate(-56.3099) scale(18.5085)">
-          <stop offset="0.47771" stop-color="#8FABDD" stop-opacity="0" />
-          <stop offset="1" stop-color="#5582D3" />
+          <stop offset="0.47771" stopColor="#8FABDD" stopOpacity="0" />
+          <stop offset="1" stopColor="#5582D3" />
         </radialGradient>
         <linearGradient
           id="paint6_linear_281_51023"
@@ -609,8 +609,8 @@ const weatherIcons = {
           x2="21"
           y2="27"
           gradientUnits="userSpaceOnUse">
-          <stop stop-color="#C6D8F5" />
-          <stop offset="1" stop-color="#89AFD1" stop-opacity="0" />
+          <stop stopColor="#C6D8F5" />
+          <stop offset="1" stopColor="#89AFD1" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_281_51023"
@@ -619,8 +619,8 @@ const weatherIcons = {
           x2="18.1731"
           y2="0.749999"
           gradientUnits="userSpaceOnUse">
-          <stop stop-color="#547DDA" />
-          <stop offset="0.257422" stop-color="#93C2FF" stop-opacity="0" />
+          <stop stopColor="#547DDA" />
+          <stop offset="0.257422" stopColor="#93C2FF" stopOpacity="0" />
         </linearGradient>
         <radialGradient
           id="paint8_radial_281_51023"
@@ -629,8 +629,8 @@ const weatherIcons = {
           r="1"
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(11.375 27) rotate(-127.875) scale(16.6276 19.2425)">
-          <stop offset="0.683784" stop-color="#8FABDD" stop-opacity="0" />
-          <stop offset="1" stop-color="#5582D3" />
+          <stop offset="0.683784" stopColor="#8FABDD" stopOpacity="0" />
+          <stop offset="1" stopColor="#5582D3" />
         </radialGradient>
         <radialGradient
           id="paint9_radial_281_51023"
@@ -639,8 +639,8 @@ const weatherIcons = {
           r="1"
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(21.2187 27) rotate(-120.256) scale(25.3248 26.3211)">
-          <stop offset="0.683784" stop-color="#8FABDD" stop-opacity="0" />
-          <stop offset="1" stop-color="#5582D3" />
+          <stop offset="0.683784" stopColor="#8FABDD" stopOpacity="0" />
+          <stop offset="1" stopColor="#5582D3" />
         </radialGradient>
         <radialGradient
           id="paint10_radial_281_51023"
@@ -649,8 +649,8 @@ const weatherIcons = {
           r="1"
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(27.2417 24.4333) rotate(-56.3099) scale(18.5085)">
-          <stop offset="0.47771" stop-color="#8FABDD" stop-opacity="0" />
-          <stop offset="1" stop-color="#5582D3" />
+          <stop offset="0.47771" stopColor="#8FABDD" stopOpacity="0" />
+          <stop offset="1" stopColor="#5582D3" />
         </radialGradient>
       </defs>
     </svg>

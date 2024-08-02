@@ -12,35 +12,35 @@ export default function Searchbar({ onLocationUpdate, onSearched }) {
     e.preventDefault();
     setLoading(true);
     setError(null);
-
+  
     try {
-      // Fetch location data from OpenWeatherMap API
-      const response = await axios.get(`http://api.openweathermap.org/geo/1.0/direct`, {
+      // Update the API URL to use HTTPS
+      const response = await axios.get(`https://api.openweathermap.org/geo/1.0/direct`, {
         params: {
           q: searchQuery,
           limit: 1,
           appid: OPENWEATHER_API_KEY,
         }
       });
-
+  
       const locationData = response.data;
       if (locationData.length > 0) {
         const { lat, lon } = locationData[0];
-        // Pass the coordinates to the parent component
         onLocationUpdate(lat, lon);
-        onSearched(true); // Indicate that a search has been made
-        setSearchQuery(''); // Clear the search input
+        onSearched(true);
+        setSearchQuery('');
       } else {
         setError('No location found.');
-        onSearched(false); // Indicate that no valid search was made
+        onSearched(false);
       }
     } catch (err) {
       setError('Failed to fetch location.');
-      onSearched(false); // Indicate that an error occurred
+      onSearched(false);
     } finally {
       setLoading(false);
     }
   };
+  
 
   return (
     <div>
