@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  /* background: url('./assets/imagee.png') no-repeat center center fixed; */
+  background-size: cover;
+  min-height: 100vh;
+  color: #fff;
+}
+
+
+
+.weather-container-day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding: 2rem;
+  background: linear-gradient(to bottom, #87CEFA, #87CEFA); /* Light blue gradient for day */
+}
+
+.weather-container-night {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding: 2rem;
+  background: linear-gradient(to bottom, #464B7F, #464B7F); /* Darker blue gradient for night */
+}
+
+
+
+
+.weather-info {
+  margin: 20px;
+}
+
+.error {
+  color: #ff4d4d;
+}
+
