@@ -44,26 +44,30 @@ export default function Searchbar({ onLocationUpdate, onSearched }) {
 
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light searchbar-bg-color">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="/">WeatherNow</a>
+      <nav className="navbar navbar-expand-lg pt-3">
+        <div className="container">
+          <a className="navbar-brand" href="/"><h2 style={{color:'#00008b'}}>WeatherNow</h2></a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+          <div className="collapse navbar-collapse " id="navbarSupportedContent">
+            <div className='d-flex align my-2' style={{width:'100%'}}>
           <form className="d-flex" role="search" onSubmit={handleSearch}>
             <input
-              className="form-control me-2"
+              className="me-2"
               type="search"
               placeholder="Search for a location"
               aria-label="Search"
               value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
+              onChange={(e) => {
+                setError('')
+                setSearchQuery(e.target.value)}}
             />
-            <button className="btn btn-outline-success" type="submit" disabled={loading}>
+            <button className="btn btn-style" type="submit" disabled={loading}>
               {loading ? 'Searching...' : 'Search'}
             </button>
           </form>
+          </div>
           {error && <p className="text-danger">{error}</p>}
         </div>
         </div>

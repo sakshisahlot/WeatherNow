@@ -116,7 +116,7 @@ export default function Weather({ coordinates, searched }) {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-lg-5 text-left">
+        <div className="col-lg-5 col-md-12 col-sm-12 text-left my-4">
           <div className="weather-updates">
             <h6 className="fw-bold">
               Current Weather of{" "}
@@ -124,46 +124,46 @@ export default function Weather({ coordinates, searched }) {
             </h6>
             <p className="fw-semibold">{currentWeather?.time}</p>
             <div className="row d-flex">
-              <div className="col-lg-3">
+              <div className="col-lg-3 col-md-3 col-sm-3 col-3">
                 {weatherIcons[currentWeather?.description.toLowerCase()] ||
                   weatherIcons.default}
               </div>
-              <div className="col-lg-9 text-start">
+              <div className="col-lg-9 col-md-9 col-sm-9 text-start col-9">
                 <h1>{currentWeather?.temperature}°C</h1>
                 <p>{currentWeather?.description}</p>
               </div>
             </div>
             <div className="row mt-4">
-              <div className="col-lg-4">
+              <div className="col-lg-4 col-md-4 col-sm-4 col-4">
                 <h6 className="fw-bold">Wind</h6>
                 <p>{currentWeather?.wind} km/h</p>
               </div>
-              <div className="col-lg-4">
+              <div className="col-lg-4 col-md-4 col-sm-4 col-4">
                 <h6 className="fw-bold">Humidity</h6>
                 <p>{currentWeather?.humidity}%</p>
               </div>
-              <div className="col-lg-4">
+              <div className="col-lg-4 col-md-4 col-sm-4 col-4">
                 <h6 className="fw-bold">Feels Like</h6>
                 <p>{currentWeather?.feelsLike}°C</p>
               </div>
             </div>
             <div className="row">
-              <div className="col-lg-4">
+              <div className="col-lg-4 col-md-4 col-sm-4 col-4">
                 <h6 className="fw-bold">Visibility</h6>
                 <p>{currentWeather?.visibility} km</p>
               </div>
-              <div className="col-lg-4">
+              <div className="col-lg-4 col-md-4 col-sm-4 col-4">
                 <h6 className="fw-bold">Pressure</h6>
                 <p>{currentWeather?.pressure} mb</p>
               </div>
-              <div className="col-lg-4">
+              <div className="col-lg-4 col-md-4 col-sm-4 col-4">
                 <h6 className="fw-bold">Dew Point</h6>
                 <p>{currentWeather?.dewPoint.toFixed(1)}°C</p>
               </div>
             </div>
           </div>
         </div>
-        <div className="col-lg-7">
+        <div className="col-lg-7 col-md-12 col-md-12 my-4">
           <div className="weather-map">
             <WeatherMap
               center={[

@@ -42,7 +42,7 @@ const WeatherMap = ({ center, zoom, weatherData, onMapClick }) => {
     <MapContainer
       center={center}
       zoom={zoom}
-      style={{ height: '100%', width: '100%', cursor: 'pointer' }}
+      style={{ height: '100%', width: '100%', cursor: 'pointer',background: 'transparent' , borderRadius:'10px'}}
     >
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
