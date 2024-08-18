@@ -7,7 +7,6 @@ import 'leaflet/dist/leaflet.css';
 function App() {
   const [coordinates, setCoordinates] = useState({ lat: 39.5, lon: -98.35 }); // Default to center of the US
   const [searched, setSearched] = useState(false);
-  const [backgroundUrl, setBackgroundUrl] = useState('');
 
   const handleLocationUpdate = (lat, lon) => {
     setCoordinates({ lat, lon });
